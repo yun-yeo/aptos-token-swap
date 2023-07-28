@@ -1,0 +1,11 @@
+[package]
+name = 'TokenSwap'
+version = '1.0.0'
+
+[addresses]
+std = "0x1"
+aptos_framework = "0x1"
+token_swap = "_"
+
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'aptos-cli-v2.0.0', subdir = 'aptos-move/framework/aptos-framework' }
